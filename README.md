@@ -4,4 +4,4 @@
 
 exercício1:
 
-https://carlosot.github.com.io/manipulacao_texto.html
+http://carlosot.github.com.io/manipulacao_texto.html
