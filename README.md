@@ -1,7 +1,6 @@
-# Atividade Contínua 2 
+# Todos os códigos podem ser executados no navegador quando acessados os branchs 
 
-(clique no link para ver o código rodando no navegador)
+obrigado pela visita
 
 
-exercício 1:
-https://carlosot.github.io/manipulacao_texto.html
+
