@@ -1,4 +1,4 @@
-# Branch Atividade Contínua 2 
+# Atividade Contínua 2 
 
 (clique no link para ver o código rodando no navegador)
 
