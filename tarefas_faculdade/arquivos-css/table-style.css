@@ -24,3 +24,7 @@ td{
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+a{
+  text-decoration: none;
+}
