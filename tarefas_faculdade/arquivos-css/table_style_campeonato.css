@@ -1,0 +1,16 @@
+h1{
+  text-align: center;
+  font-size: 25px;
+}
+ol{
+  list-style-type: none;
+  width: 500px;
+  padding-top: 40px;
+}
+.tabela{
+  font-size: 16px;
+  margin-left: 420px;
+}
+body{
+  background-color: #ceeba5;
+}
