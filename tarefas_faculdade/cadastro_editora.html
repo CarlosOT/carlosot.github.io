@@ -1,0 +1,297 @@
+<!--O link para execução desse código está no arquivo README do branch: Atividade Contínua 2 - Impacta */-->
+
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <title>Cadastro Editoras</title>
+        <style type="text/css">
+            h1{
+              text-align: center;
+            }
+            body{
+              background-color: #b2c8ff;
+              border-width: 2px;
+              border-style: solid;
+            }
+            fieldset{
+              margin: 10px 150px 0px 150px;
+              border-top-width: 5px;
+              border-right-width: 5px;
+              border-bottom-width: 5px;
+              border-left-width: 5px;
+              border: none;
+
+            }
+            .colunas{
+              margin: 10px 150px 0px 150px;
+              border-top-width: 5px;
+              border-right-width: 5px;
+              border-bottom-width: 5px;
+              border-left-width: 5px;
+
+            }
+            .coluna1{
+              padding-top: 0px;
+              padding-bottom: 10px;
+              padding-right: 10px;
+              padding-left: 10px;
+              height: 150px;
+              width: 150px;
+              float: left;
+            }
+            .coluna2{
+              padding-top: 0px;
+              padding-bottom: 10px;
+              padding-right: 10px;
+              padding-left: 10px;
+              height: 150px;
+              width: 150px;
+              float: left;
+            }
+            .coluna3{
+              padding-top: 0px;
+              padding-bottom: 10px;
+              padding-right: 10px;
+              padding-left: 10px;
+              height: 150px;
+              width: 150px;
+              float: left;
+            }
+            .coluna4{
+              padding-top: 0px;
+              padding-bottom: 10px;
+              padding-right: 10px;
+              padding-left: 10px;
+              height: 150px;
+              width: 150px;
+              float: left;
+            }
+
+            .fixoEditora{
+              float: left;
+            }
+            .celularEditora{
+              width: 160px;
+              float: left;
+            }
+            .emailEditora{
+              width: 160px;
+              float: left;
+            }
+            .nomeContato{
+              width: 200px;
+              float: left;
+            }
+            .ie_Editora{
+              float: left;
+            }
+            .cnpjEditora{
+              width: 160px;
+              float: left;
+            }
+            .nomeEditora{
+              width: 200px;
+              float: left;
+            }
+            .enderecoRua{
+              float: left;
+              width: 200px;
+            }
+            .numeroEndereco{
+              width: 80px;
+              float: left;
+            }
+            .complementoEndereco{
+              width: 300px;
+            }
+            .estadosBrasil{
+              width: 120px;
+              float: left;
+
+            }
+            .cepEndereco{
+              margin-left: 20px;
+              float: left;
+            }
+            .midiasSociais{
+              margin-right: 100px;
+              float: left;
+            }
+            a{
+              text-decoration: none;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div>
+            <ul>
+               <li>Carlos Oliveira Teixeira</li>
+               <li>RA: 1800059</li>
+               <li><a href="https://carlosot.github.io/index.html">Index</a></li>
+            <ul>
+        </div>
+        <div>
+        <h1>Cadastro de Editoras</h1>
+        <form action="#A Definir" method="post" enctype="application/x-www-form-urlencoded" name="Cadastro de Editoras">
+            &emsp;<textarea readonly rows="1" cols="30">Data do cadastro: 30/06/2020</textarea>
+
+            <fieldset>
+                <b><p>Dados Fiscais</p></b>
+                <div class="nomeEditora">
+                    <label for="nome-editora">Nome:</label></br>
+                    <input required size="20" maxlength="30" type="text" name="nome-editora" id="nome-editora"></br></br>
+                </div>
+                <div class="cnpjEditora">
+                    <label for="cnpj-editora">CNPJ:</label></br>
+                    <input required placeholder="12.234.434/5678-56" size="15" maxlength="18" type="text" name="cnpj-editora" id="cnpj-editora"></br></br>
+                </div>
+                <div class="ie_Editora">
+                    <label for="ie-editora">Incrição Estadual:</label></br>
+                    <input required placeholder="152.000.006.100" size="15" maxlength="18" type="text" name="ie-editora" id="ie-editora"></br></br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <b><p>Endereço</p></b>
+                <div class="estadosBrasil">
+                    Estado:
+                    <select name="estado" style="width: 100px;height: 21px;">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="AC">Espírito Santo </option>
+                        <option value="AC">Goiás</option>
+                        <option value="AC">Maranhão</option>
+                        <option value="AC">Mato Grosso</option>
+                        <option value="AC">Mato Grosso do Sul</option>
+                        <option value="AC">Minas Gerais</option>
+                        <option value="AC">Pará</option>
+                        <option value="AC">Paraíba</option>
+                        <option value="AC">Paraná</option>
+                        <option value="AC">Pernambuco</option>
+                        <option value="AC">Piauí</option>
+                        <option value="AC">Rio de Janeiro</option>
+                        <option value="AC">Rio Grande do Norte</option>
+                        <option value="AC">Rio Grande do Sul</option>
+                        <option value="AC">Rondônia</option>
+                        <option value="AC">Roraima</option>
+                        <option value="AC">Santa Catarina</option>
+                        <option value="AC">São Paulo</option>
+                        <option value="AC">Sergipe</option>
+                        <option value="AC">Tocantins</option>
+                    </select>
+                </div>
+                <div class="cepEndereco">
+                    <label for="cep-endereco">Cep:</label></br>
+                    <input required placeholder="02090-1X0" size="10" maxlength="10" type="text" name="cep-endereco" id="cep-endereco"></br></br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="enderecoRua">
+                    <label for="endereco-rua">Rua:</label></br>
+                    <input required size="20" maxlength="30" type="text" name="endereco-rua" id="endereco-rua"></br></br>
+                </div>
+                <div class="numeroEndereco">
+                    <label for="numero-endereco">Número:</label></br>
+                    <input required size="5" maxlength="7" type="text" name="numero-endereco" id="numero-endereco"></br></br>
+                </div>
+                <div class="bairroEndereco">
+                    <label for="bairro-endereco">Bairro:</label></br>
+                    <input required size="15" maxlength="30" type="text" name="bairro-endereco" id="bairro-endereco"></br></br>
+                </div>
+                <div class="complementoEndereco">
+                    <label for="complemento-endereco">Complemento:</label></br>
+                    <input placeholder="02090-1X0" size="10" maxlength="10" type="text" name="ccomplemento-endereco" id="complemento-endereco"></br></br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <b><p>Contato</p></b>
+                <div class="nomeContato">
+                    <label for="nome-contato">Nome para contato:</label></br>
+                    <input required size="20" maxlength="30" type="text" name="nome-contato" id="nome-contato" >
+                </div>
+                <div class="emailEditora">
+                    <label for="input_email">Email:</label></br>
+                    <input required size="15" maxlength="30" type="email" name="email-editora" id="input_email" >
+                </div>
+                <div class="celularEditora">
+                    <label for="celular-editora">Telefone celular:</label></br>
+                    <input required placeholder="11-912344567" size="15" maxlength="12" type="text" name="celular-editora" id="celular-editora"></br></br>
+                </div>
+                <div class="fixoEditora">
+                    <label for="fixo-editora">Telefone fixo:</label></br>
+                    <input required placeholder="11-23456545" size="15" maxlength="11" type="text" name="fixo-editora" id="fixo-editora"></br></br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="midiasSociais">
+                    <b><p>Principal Mídial Social</p></b>
+                    <input type="radio" value="facebook" name="midia"/>Facebook</br>
+                    <input type="radio" value="twitter" name="midia"/>Twitter</br>
+                    <input type="radio" value="instagram" name="midia"/>Instagram</br>
+                    <input type="radio" value="site-proprio" name="midia"/>Site próprio</br></br>
+                    Endereço da página:</br>
+                    <textarea style="border:solid 2px black" name="area-texto" rows="1" cols="20"></textarea>
+                </div>
+
+
+            </fieldset>
+
+            <fieldset class="colunas">
+                <b>Gêneros de publicação:</b></br></br>
+                <div class="coluna1">
+                    <input type="checkbox" name="generos" value="agropecuaria"/>&nbsp;Agropecuaria</br>
+                    <input type="checkbox" name="generos" value="antologias‎"/>&nbsp;Antologias‎</br>
+                    <input type="checkbox" name="generos" value="audiobooks‎"/>&nbsp;Audiobooks</br>
+                    <input type="checkbox" name="generos" value="autoajuda‎"/>&nbsp;Autoajuda</br>
+                    <input type="checkbox" name="generos" value="aventura"/>&nbsp;Aventura</br>
+                    <input type="checkbox" name="generos" value="biograficos"/>&nbsp;Biográficos</br>
+                    <input type="checkbox" name="generos" value="cartas"/>&nbsp;Cartas</br>
+                </div>
+                <div class="coluna2">
+                    <input type="checkbox" name="generos" value="cientificos"/>&nbsp;Científicos</br>
+                    <input type="checkbox" name="generos" value="contos"/>&nbsp;Contos</br>
+                    <input type="checkbox" name="generos" value="cronicas"/>&nbsp;Crônicas</br>
+                    <input type="checkbox" name="generos" value="didaticos"/>&nbsp;Didáticos</br>
+                    <input type="checkbox" name="generos" value="epicos"/>&nbsp;Épicos</br>
+                    <input type="checkbox" name="generos" value="fantasia"/>&nbsp;Fantasia</br>
+                    <input type="checkbox" name="generos" value="ficcao cientifica"/>&nbsp;Ficção Científica</br>
+                </div>
+                <div class="coluna3">
+                    <input type="checkbox" name="generos" value="ficcao historica"/>&nbsp;Ficção Histórica</br>
+                    <input type="checkbox" name="generos" value="guia de viagem"/>&nbsp;Guia de viagem</br>
+                    <input type="checkbox" name="generos" value="horror"/>&nbsp;Horror</br>
+                    <input type="checkbox" name="generos" value="infantojuvenis"/>&nbsp;Infantojuvenis</br>
+                    <input type="checkbox" name="generos" value="infantis"/>&nbsp;Infantis</br>
+                    <input type="checkbox" name="generos" value="livro-jogos"/>&nbsp;Livro-Jogos</br>
+                    <input type="checkbox" name="generos" value="manuais"/>&nbsp;Manuais</br>
+                </div>
+                <div class="coluna4">
+                    <input type="checkbox" name="generos" value="livro de memorias"/>&nbsp;Livro de Memórias</br>
+                    <input type="checkbox" name="generos" value="livros de natal"/>&nbsp;Livros de Natal</br>
+                    <input type="checkbox" name="generos" value="poesia"/>&nbsp;Poesia</br>
+                    <input type="checkbox" name="generos" value="politica"/>&nbsp;Política</br>
+                    <input type="checkbox" name="generos" value="romance"/>&nbsp;Romance</br></br>
+                    Outros gêneros:</br>
+                    <textarea style="border:solid 2px black" name="area-texto" rows="1" cols="20"></textarea>
+                </div>
+            </fieldset>
+
+            <div class="buttom" style="margin-top: 20px;">
+                <center><input type="submit" value="Enviar"/>&emsp;<input type="reset"/><br/><br/></center>
+            </div>
+        </form>
+      </div>
+    </body>
+</html>
