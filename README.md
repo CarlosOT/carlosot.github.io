@@ -1,3 +1,3 @@
 # wellcome
 
-Menu de execução de todos os arquivos: https://carlosot.github.io/tarefas_faculdade/index_menu.html
+Menu de execução da pasta "tarefas_faculdade": https://carlosot.github.io/tarefas_faculdade/index_menu.html
