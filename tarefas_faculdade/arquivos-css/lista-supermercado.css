@@ -1,0 +1,18 @@
+
+body{
+  font-family: Arial;
+  background-color: #eab1f6;
+  font-size: 16px;
+}
+hr {
+  margin-left: 1px;
+  margin-right: 1065px;
+}
+h1 {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+a{
+ text-decoration:none;
+}
