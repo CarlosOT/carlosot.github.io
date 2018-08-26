@@ -1,0 +1,47 @@
+.style-header{
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.paragrafo-com-neumann{
+  padding-top: 10px;
+  width: 580px;
+}
+
+.about-neumann{
+  height: 280px;
+}
+
+.about-neumann figure{
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  float: right;
+  border-bottom: 2px solid black;
+  margin-top: 10px;
+  margin-right: 60px;
+
+}
+
+body{
+  line-height: 1.5;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: arial;
+  font-size: 16px;
+}
+
+p{
+  text-align: justify;
+
+}
+
+h2{
+  font-size: 22px;
+}
+
+h3{
+  font-size: 16px;
+}
