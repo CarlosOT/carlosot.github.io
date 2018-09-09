@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="arquivos-css/cadastroAluno.css">
+        <title>Cadastro de Alunos</title>
+    </head>
+
+    <body>
+        <div>
+            <ul>
+               <li>Carlos Oliveira Teixeira</li>
+               <li>RA: 1800059</li>
+               <li><a href="https://carlosot.github.io/tarefas_faculdade/index_menu.html">Menu de execução</a></li>
+            <ul>
+        </div>
+        <section class="tituloPrincipal">
+            <h1>Cadastro de Alunos</h1>
+        </section>
+        <form class="formularioAluno" action="#Definir" method="post">
+          <fieldset>
+              <label for="nome-aluno">Nome Completo: </label><br/>
+              <input required type="text" maxlength="20" name="nome-aluno" id="inputNome">
+          </fieldset>
+          <fieldset>
+              <label for="endereco-aluno">Endereço Completo: </label><br/>
+              <input required type="text" maxlength="30" name="endereco-aluno" id="inputEndereco">
+          </fieldset>
+          <fieldset>
+              <label for="cidade-aluno">Cidade: </label><br/>
+              <input required type="text" maxlength="20" name="cidade-aluno" id="inputCidade">
+          </fieldset>
+          <fieldset class="EstadosBrasil">
+              <label for="UF">UF: </label>
+              <select>
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo </option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+              </select>
+          </fieldset>
+          <fieldset>
+              <label for="RG-aluno">RG: </label><br/>
+              <input required type="text" maxlength="10" name="RG-aluno" id="inputRG">
+              <span class="somente-numeros">*somente números</span>
+          </fieldset>
+          <fieldset>
+              <label for="CPF-aluno">CPF: </label><br/>
+              <input required type="text" maxlength="11" name="CPF-aluno" id="inputCPF" >
+              <span class="somente-numeros">*somente números</span>
+          </fieldset>
+          <fieldset>
+              <label for="email-aluno">Email: </label><br/>
+              <input required type="email" maxlength="20" name="email-aluno" id="inputEmail">
+          </fieldset>
+          <fieldset>
+              <label for="redes-sociais">Rede Social: </label><br/>
+              <span class="Sociais">
+                  <input type="checkbox" name="redes-sociais" value="Facebook"/>Facebook
+              </span>
+                  <input type="checkbox" name="redes-sociais" value="Twitter"/>Twitter
+                  <input type="checkbox" name="redes-sociais" value="WhatsApp"/>WhatsApp
+                  <input type="checkbox" name="redes-sociais" value="Outros"/>Outros
+          </fieldset>
+          <fieldset>
+              <label for="cursos">Cursos: </label><br/>
+              <span class="Cursos">
+                  <input type="radio" name="cursos" value="ADS">ADS
+              </span>
+                  <input type="radio" name="cursos" value="Redes">Redes
+                  <input type="radio" name="cursos" value="SI">SI
+          </fieldset>
+          <fieldset>
+              <label for="area-texto">Motivo da inscrição: </label><br/><br/>
+              <span class="AreaTexto">
+                  <textarea name="motivo-inscricao" maxlength="100" rows="8" cols="20"></textarea>
+              </span>
+          </fieldset>
+          <fieldset>
+            <span class="buttom">
+              <input type="submit" value="Enviar"/>&emsp;<input type="reset"/><br/><br/>
+          </span>
+          </fieldset>
+        </form>
+    </body>
+</html>
