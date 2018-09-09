@@ -1,0 +1,75 @@
+.tituloPrincipal{
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+.EstadosBrasil select{
+  width: 100px;
+}
+.somente-numeros{
+  margin-top: 10px;
+  font-size: 15px;
+}
+.Sociais input{
+  margin-top: 10px;
+}
+.somente-numeros:hover{
+  font-weight: bold;
+  color: red;
+}
+.Cursos input{
+  margin-top: 10px;
+}
+.AreaTexto{
+  float: left;
+}
+.AreaTexto textarea{
+  border: solid;
+  background-color: #0bc2d0;
+}
+.buttom{
+  margin-top: 20px;
+}
+body {
+ background: url(backgoundImage.jpg);
+ background-size: 100% 100%;
+ color: white;
+ font-size: 16px;
+}
+fieldset{
+  border: none;
+}
+label{
+  font-style: italic;
+}
+input{
+  margin-top: 5px;
+  font-weight: bold;
+  background-color: #0bc2d0;
+}
+input:focus{
+  background-color: white;
+}
+label:hover{
+  font-weight: bold;
+  font-style: normal;
+}
+textarea:focus{
+  background-color: inherit;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#inputNome{
+  width: 220px;
+}
+#inputEndereco{
+  width: 320px;
+}
+#inputRG{
+  width: 80px;
+}
+#inputCPF{
+  width: 85px;
+}
