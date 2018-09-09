@@ -55,7 +55,7 @@ label:hover{
   font-style: normal;
 }
 textarea:focus{
-  background-color: inherit;
+  background-color: white;
 }
 a{
   text-decoration: none;
