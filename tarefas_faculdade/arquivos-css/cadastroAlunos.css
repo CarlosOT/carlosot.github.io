@@ -30,6 +30,9 @@
 .buttom{
   margin-top: 20px;
 }
+.opcoes-Estado{
+  background-color: #0bc2d0;
+}
 body {
  background: url(cadastroAlunos_background.jpg);
  background-size: 100% 100%;
@@ -48,6 +51,9 @@ input{
   background-color: #0bc2d0;
 }
 input:focus{
+  background-color: white;
+}
+.opcoes-Estado:focus{
   background-color: white;
 }
 label:hover{
