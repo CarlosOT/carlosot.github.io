@@ -1,0 +1,15 @@
+h1{
+  font-size: 20px;
+}
+ul{
+  margin-top:0px;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: #5d5d5d;
+}
+a:hover{
+  color: #ff000f;
+}
