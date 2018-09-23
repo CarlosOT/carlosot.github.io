@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
   <script>
   function countOcurrences(){
-    var letra    = document.getElementById("letra").value;
-    var palavra  = document.getElementById("palavra").value;
+    var letra    = document.getElementById("letra");
+    var palavra  = document.getElementById("palavra");
     var counter  = (palavra.match(letra) || []).length;
     return alert(`${letra}: ${counter}`);
     }
