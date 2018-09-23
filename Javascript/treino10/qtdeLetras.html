@@ -6,9 +6,9 @@
   function countOcurrences(){
     var letra    = document.getElementById("letra").value;
     var palavra  = document.getElementById("palavra").value;
-    var counter = (palavra.match(/letra/g) || []).length;
+    var counter  = (palavra.match(letra) || []).length;
     return alert(`${letra}: ${counter}`);
-}
+    }
   </script>
 
 </head>
@@ -16,6 +16,7 @@
   <body>
 
    <form onsubmit="javascript: return countOcurrences()">
+       
         <label for= "letra">Letra a ser contada:</label><br/>
         <input type="text" id="letra"><br/>
         <label for="palavra">Palavra:</label><br/>
