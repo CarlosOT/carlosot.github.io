@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8" />
+  <script>
+
+      /*
+
+      function inverseWord(){
+      var inverse = document.getElementById('palavra').value;
+      return alert(inverse.split("").reverse().join(""));
+      
+      }*/
+
+      function inverseWord(){
+        var palavra = document.getElementById('palavra').value;
+        var palavraInvertida = "";
+        for(i = palavra.length - 1; i >= 0; i--){
+          palavraInvertida = palavraInvertida.concat(palavra[i]);
+        }
+        return alert(palavraInvertida)
+      }
+
+
+  </script>
+</head>
+
+  <body>
+    <b>10) Construa uma função que inverta uma palavra e retorne esta palavra invertida.</b><br/><br/>
+   <form onsubmit="javascript: return inverseWord()">
+
+        <label for="palavra">Palavra: </label><br/><input type="text" id="palavra"><br/><br/>
+        <input type="submit" value="Enviar">
+
+   </form>
+
+
+  </body>
+
+</html>
