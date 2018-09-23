@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8" />
+  <script>
+
+      function retornaMaior(){
+        var n1 = document.getElementById('n1').value;
+        var n2 = document.getElementById('n2').value;
+        if(n1 > n2){
+          return alert(n1);
+        } else if(n2 > n1){
+          return alert(n2);
+        }else{
+          return alert('Iguais');
+        }
+      }
+
+  </script>
+</head>
+
+  <body>
+    <b> 1) Receba dois números e retorne qual deles é o maior.</b><br/><br/>
+   <form onsubmit="javascript: return retornaMaior()">
+
+        <label for="n1">Primeiro Número: </label><br/><input type="text" id="n1"><br/><br/>
+        <label for="n2">Segundo Número: </label><br/><input type="text" id="n2"><br/><br/>
+        <input type="submit" value="Enviar">
+
+   </form>
+
+
+  </body>
+
+</html>
