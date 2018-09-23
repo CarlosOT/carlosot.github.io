@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8" />
+  <script>
+    function analyseWord(){
+      var word = document.getElementById('palavra').value;
+      lengthWord = word.length;
+      if (lengthWord < 6){
+        return alert('Palavra Inválida');
+      }else{
+      first3caracteres = word.slice(0,3);
+      last3caracteres = word.slice(lengthWord - 3, lengthWord);
+      if (first3caracteres === last3caracteres){
+        return alert('Os três primeiros caracteres são iguais aos três últimos');
+      }else{
+        return alert('Os três primeiros caracteres não são iguais aos três últimos');
+      }
+    }
+  }
+  </script>
+</head>
+
+  <body>
+   <b>3) Receba uma palavra e determine se os três primeiros caracteres desta palavra são iguais aos três últimos.
+     (palavra deve terno mínimo 6 caracteres. Se tiver menos  retorne "Palavra Inválida".)</b><br/><br/>
+   <form onsubmit="javascript: return analyseWord()">
+
+        <label for="palavra">Palavra:</label><br/>
+        <input type="text" id="palavra"><br/>
+        <input type="submit" value="Enviar">
+
+   </form>
+
+
+  </body>
+
+</html>
