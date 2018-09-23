@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8" />
+  <script>
+    function ReplaceEvenNumber(){
+    var arranjo = document.getElementById('arranjo').value;
+    for(i = 0; i < arranjo.length; i++){
+    alert(arranjo);
+    alert(arranjo[i]);
+    if(arranjo[i] % 2 == 0){
+      alert('É par')
+      arranjo = arranjo.replace(arranjo[i], 1);
+      alert(arranjo);
+    }else{
+      alert('é impar')
+      }
+    }
+    return alert(arranjo);
+  }
+  </script>
+</head>
+
+  <body>
+   <b>7) Construa uma função que substitua todos os números pares  de um arranjo pelo valor 1.**</b><br/><br/>
+   <form onsubmit="javascript: return ReplaceEvenNumber()">
+
+        <label for="arranjo">Arranjo:</label><br/>
+        <input type="text" id="arranjo"><br/>
+        <input type="submit" value="Enviar">
+
+   </form>
+
+
+  </body>
+
+</html>
