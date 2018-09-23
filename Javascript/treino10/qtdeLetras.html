@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
   <script>
   function countOcurrences(){
+    var letra    = document.getElementById("letra").value;
     var palavra  = document.getElementById("palavra").value;
-    var counter1 = (palavra.match(/A/g) || []).length;
-    var counter2 = (palavra.match(/a/g) || []).length;
-    palavra      = `A: ${counter1}    /    a: ${counter2}`
-    return alert(palavra);
+    var counter = (palavra.match(/letra/g) || []).length;
+    return alert(`${letra}: ${counter}`
+);
 }
   </script>
 
@@ -17,9 +17,10 @@
   <body>
 
    <form onsubmit="javascript: return countOcurrences()">
-
-        <label for="palavra">Conta ocorrências (A ou a):</label> <br/>
-        <input type="text" id="palavra"> <br>
+        <label for "letra">Letra a ser contada:</label><br/>
+        <input type="text" id="letra"><br/>
+        <label for="palavra">Palavra:</label><br/>
+        <input type="text" id="palavra"><br/>
         <input type="submit" value="Enviar">
 
    </form>
