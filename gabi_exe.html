@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8" />
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+    <audio controls><source src="audio.mp3" type="audio/mpeg"></audio>
+
+  <script>
+      function analyseForm(){
+        var gostou = document.getElementById('decisao').value;
+        if (gostou != 'Sim'){
+          alert('Espero que você tenha digitado errado rs');
+        }else{
+          alert('Então, não é nada complicado a questão do anel. Vejo você com bons olhos e sei que seria pra mim um grande bem poder continuar te vendo assim. Sei que te conheço muito pouco, porém o que sei sobre você já é o suficiente para que eu tenha você como alguém diferente pra mim. É maravilhoso como me dá atenção, sua simpatia me empolga e mesmo cansado do dia que tive posso ficar conversando com você horas a fio (meu coração curtiu essa, meu corpo não kk). Eu estava pensando em esperar mas parece uma boa oportunidade para pedir uma coisa, bem simples. Mas pelo menos para mim é muito importante. Eu posso me apaixonar mesmo? isso significa que meus olhos serão guardados para você e meus pensamentos também. Não cogitarei nada com ninguém até que por algum motivo não venha dar certo entre nós. Eu posso estar errado, talvez esteja sendo precipitado, mas to nem ai rs <3');
+        }
+      }
+  </script>
+
+</head>
+
+  <body style="background-color:#d497ff;">
+
+<pre>
+
+Dá um play e responde sim ou não <i class="em em-wink"></i>
+Pega pra você  <i class="em em-rose"></i>
+
+</pre>
+
+   <form onsubmit="javascript: return analyseForm()">
+
+        <label for="decisao">Quer saber o por que do anel? <i class="em em-blush"></i><br/><br/></label>&nbsp;<input type="text" id="decisao"><br/><br/>
+
+
+        <br/><input type="submit" value="Clica aqui agora">
+
+   </form>
+
+
+  </body>
+
+</html>
