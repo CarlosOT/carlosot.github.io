@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8" />
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+    <audio controls><source src="all.mp3" type="audio/mpeg"></audio>
+
+  <script>
+      function analyseForm(){
+        var gostou = document.getElementById('decisao').value;
+        if (gostou != 'Sim'){
+          alert('Espero que você tenha digitado errado rs');
+        }else{
+          alert(' Que ótimo. Escolhe o dia que eu quero muito ver vc. Poder ser qualquer dia, até hoje heheh <3');
+        }
+      }
+  </script>
+
+</head>
+
+  <body style="background-color:#722874;">
+
+<pre>
+
+Dá um play e responde sim ou não <i class="em em-wink"></i>
+Pega pra você  <i class="em em-rose"></i>
+
+</pre>
+
+   <form onsubmit="javascript: return analyseForm()">
+
+        <label for="decisao">Gostou de mim? <i class="em em-blush"></i><br/><br/></label>&nbsp;<input type="text" id="decisao"><br/><br/>
+
+
+        <br/><input type="submit" value="Clica aqui agora">
+
+   </form>
+
+
+  </body>
+
+</html>
