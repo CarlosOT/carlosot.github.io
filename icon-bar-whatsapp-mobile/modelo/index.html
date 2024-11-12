@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Bar Whatsapp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+        }
+        .icon-bar {
+            display: none;
+        }
+        @media only screen and (max-width: 600px){
+            .icon-bar {
+                display: block;
+                position: fixed;
+                bottom: 0px;
+                width: 100%;
+                text-align: center;
+                background-color: #04aa6d;   
+                z-index: 100;
+                padding: 10px;
+            }
+    
+            .icon-bar a {
+                color: white; 
+                font-size: 20px; 
+                text-decoration: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="icon-bar">
+        <a href="#" target="_blank">CONSULTORA ONLINE <i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</body>
+</html>
