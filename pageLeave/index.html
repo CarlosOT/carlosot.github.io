@@ -7,13 +7,15 @@
 </head>
 <body>
     <h1>PageLeave</h1>
-
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut, sit dicta tempore ea repellendus rem? A minus ipsa in ad, eius deserunt sunt officiis. Iusto tempora quos quia itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quibusdam dolore voluptatem ipsa ipsum fugiat quas voluptas consequuntur nobis veritatis recusandae adipisci quasi saepe hic rem ab, ex eaque amet! Lorem ipsum dolor, sit amet consectetur adipisicing elit. At ipsam neque eligendi quidem obcaecati tenetur consequatur aliquid id! Ipsa laboriosam nihil ab suscipit distinctio repellendus labore aperiam omnis quam minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nostrum temporibus pariatur totam hic ipsam vel odit laborum aliquid optio? Accusamus obcaecati deserunt ratione laudantium animi saepe eligendi dignissimos optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente vel doloremque quasi omnis cupiditate quibusdam quo, beatae distinctio fugit facere odio. Eaque doloribus nulla unde, totam quae dolores debitis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a voluptatum at deserunt, in debitis illum nihil laboriosam consectetur dignissimos quasi vitae nemo, distinctio ducimus harum tempore blanditiis quisquam ab?</p>
+    <h2>Segundo Título</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut, sit dicta tempore ea repellendus rem? A minus ipsa in ad, eius deserunt sunt officiis. Iusto tempora quos quia itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quibusdam dolore voluptatem ipsa ipsum fugiat quas voluptas consequuntur nobis veritatis recusandae adipisci quasi saepe hic rem ab, ex eaque amet! Lorem ipsum dolor, sit amet consectetur adipisicing elit. At ipsam neque eligendi quidem obcaecati tenetur consequatur aliquid id! Ipsa laboriosam nihil ab suscipit distinctio repellendus labore aperiam omnis quam minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nostrum temporibus pariatur totam hic ipsam vel odit laborum aliquid optio? Accusamus obcaecati deserunt ratione laudantium animi saepe eligendi dignissimos optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente vel doloremque quasi omnis cupiditate quibusdam quo, beatae distinctio fugit facere odio. Eaque doloribus nulla unde, totam quae dolores debitis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a voluptatum at deserunt, in debitis illum nihil laboriosam consectetur dignissimos quasi vitae nemo, distinctio ducimus harum tempore blanditiis quisquam ab?</p>
     <script>
-        window.addEventListener("pagehide", myScript);
-        function myScript(){
-            alert("teste");
-        }            
-
+        window.addEventListener("touchmove", () => {      
+            window.onbeforeunload = function(){
+                return window.location.href = "https://api.whatsapp.com/send/?phone=5521965703620&text&type=phone_number&app_absent=0";
+            }
+        })
     </script>
 </body>
 </html>
